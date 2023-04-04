@@ -3,6 +3,7 @@ Simple undectectable discord auto bumper for disboard. Written in node.js around
 It is undectectable but perhaps someday it wouldn't be so use it at your own risk!!!
 
 ~~lEDIT: MAY NOT BE UNDETECTABLE ANYMORE!!!~~ 
+
 UPDATE: It is completly undetectable after further changes.
 
 to install just:
