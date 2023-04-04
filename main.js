@@ -36,7 +36,7 @@ client.on('ready', startBumpTimer);
 
 client.on('message', message => {
     if (message.channel.id === process.env.CHANNELID && message.type === 'APPLICATION_COMMAND' && message.author.id === process.env.DISBOARD_BOT_ID && message.interaction.commandName === 'bump' && message.interaction.user.id != process.env.YourUserID) {
-    console.log('Detected Bump! Resetting...');
+    console.log('Detected Bump! Resetting..');
     clearInterval(mytimer);
     startBumpTimer();
   }
