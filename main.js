@@ -29,7 +29,7 @@ async function bump() {
 
 function startBumpTimer() {
   client.user.setStatus('invisible');
-  mytimer = setInterval(bump, getRandomIntInclusive(7500000, 9600000));
+  mytimer = setInterval(bump, getRandomIntInclusive(7500000, 9601037));
 }
 
 client.on('ready', startBumpTimer);
