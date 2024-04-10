@@ -23,7 +23,7 @@ async function bump() {
   var channel = client.channels.cache.get(process.env.CHANNELID);
   console.log('Bumped Here! #-#-#');
   channel.sendTyping();
-  await sleep(getRandomIntInclusive(2300, 8000));
+  await sleep(getRandomIntInclusive(2300, 10000));
   await channel.sendSlash(process.env.DISBOARD_BOT_ID, 'bump')
 }
 
