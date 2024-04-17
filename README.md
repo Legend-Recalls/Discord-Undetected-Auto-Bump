@@ -1,4 +1,4 @@
-# Discord-Undetected-Auto-Bump
+# Discord-Undetected-Auto-Bump BY MemeXBots
 Simple undectectable discord auto bumper for disboard. Written in node.js around discord-selfbot.js API.
 It is undectectable but perhaps someday it wouldn't be so use it at your own risk!!!
 note: if someone bumps it doesn't call disboard API which is crucial for bypass and makes this script better than any auto bump out there (source: trust me bro)
